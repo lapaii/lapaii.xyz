@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LAPAII || STORE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico'/>
+  </head>
+  <body>
+    <div class="logo">
+      <h1><a href="https://lapaii.xyz"><img src="logo.png"></a></h1>
+    </div>
+    <h1 class="title">> STORE <</h1>
+
+    <div id="lust">
+      <h1>LUST</h1>
+      <div id="player" style="display: inline;">
+        <div id="playerContainer1" style="width: 45%; height: auto; display: inline-block;"></div>
+        <script src="https://cdn.jsdelivr.net/npm/indigo-player@1/lib/indigo-player.js"></script>
+        <script>
+          const config = {
+            aspectRatio: 16/9,
+            sources: [
+              {
+                type: 'mp4',
+                src: 'videos/lust.mp4',
+              }
+            ],
+          };
+        
+          const element = document.getElementById('playerContainer1');
+          const player = IndigoPlayer.init(element, config);
+        </script>
+      </div>
+      <h1>£5</h1>
+      <h1><a href="https://payhip.com/b/S0Qv4" class="payhip-buy-button links" data-theme="none" data-product="S0Qv4">[ BUY ]</a></h1>
+      <br>
+    </div>
+
+    <div id="new_n3on">
+      <h1>NEW N3ON</h1>
+      <div id="player" style="display: inline;">
+        <div id="playerContainer2" style="width: 45%; height: auto; display: inline-block;"></div>
+        <script src="https://cdn.jsdelivr.net/npm/indigo-player@1/lib/indigo-player.js"></script>
+        <script>
+          const config1 = {
+            aspectRatio: 16/9,
+            sources: [
+              {
+                type: 'mp4',
+                src: 'videos/new-n3on.mp4',
+              }
+            ],
+          };
+        
+          const element1 = document.getElementById('playerContainer2');
+          const player1 = IndigoPlayer.init(element1, config1);
+        </script>
+      </div>
+      <h1>£5</h1>
+      <h1><a href="https://payhip.com/b/0B3wO" class="payhip-buy-button links" data-theme="none" data-product="0B3wO">[ BUY ]</a></h1>
+      <br>
+    </div>
+
+    <div id="mocha-ec">
+      <h1>MOCHA EC</h1>
+      <div id="player" style="display: inline;">
+        <div id="playerContainer3" style="width: 45%; height: auto; display: inline-block;"></div>
+        <script src="https://cdn.jsdelivr.net/npm/indigo-player@1/lib/indigo-player.js"></script>
+        <script>
+          const config2 = {
+            aspectRatio: 16/9,
+            sources: [
+              {
+                type: 'mp4',
+                src: 'videos/mocha-ec.mp4',
+              }
+            ],
+          };
+        
+          const element2 = document.getElementById('playerContainer3');
+          const player2 = IndigoPlayer.init(element2, config2);
+        </script>
+      </div>
+      <h1>£5</h1>
+      <h1><a href="https://payhip.com/b/eoy8s" class="payhip-buy-button links" data-theme="none" data-product="eoy8s">[ BUY ]</a></h1>
+      <br>
+    </div>
+  </body>
+</html>
